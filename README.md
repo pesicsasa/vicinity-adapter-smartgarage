@@ -1,6 +1,6 @@
-# Smart Garage Adapter
+# Smart Garage VAS
 
-The Smart Garage Adapter colaborates with BARTER (private and public blockchain) and VizLore Smart Access Solutions (smart access control and actuation) to facilitate automated parking reservation and payments. This adapter controls the smart lock on a smart garage door, and handles tracking of door access logs. It communicates with BARTER to prepare payments. Smart Garage adapter exposes VLF Smart Access Control VAS. Smart Garage adapter is not meant to be installed by individual users. Instead, VizLore operates the Smart Garage adapter to showcase the above-described BARTER solution. Smart Garage adapter exposes VLF Smart Access Control VAS. 
+The Smart Garage VAS colaborates with BARTER (private and public blockchain) and VizLore Smart Access Solutions (smart access control and actuation) to facilitate automated parking reservation and payments. This VAS controls the smart lock on a smart garage door, and handles tracking of door access logs. It communicates with BARTER to prepare payments. SmartGarage VAS exposes VLF Smart Access Control VAS. SmartGarage VAS is not meant to be installed by individual users. Instead, VizLore operates the SmartGarage VAS to showcase the above-described BARTER solution. SmartGarage VAS exposes VLF Smart Access Control VAS. 
 
 ### VLF Smart Access Control service
 
@@ -28,5 +28,3 @@ The first one covers end user to platform/system parking reservation and payment
 The second scenario covers autonomous platform to platform (M2M) parking reservation and payments. The scenario follows the same pattern as in (1). In this case direct, automated platform-to-platform parking reservation and payments are covered, without involving human users. There are two sides – service provider and service consumer, and both are platforms in the VICINITY ecosystem. The first platform is offering the smart garage service, and the other platform wants to reserve smart garage parking spots. Both platforms have Dash wallets on BARTER private blockchain, and all reservation requests and payments between the two platforms are completely automated. In this scenario, end-users do not handle payments/reservations, everything is automated between the two platforms. They are only using the end-result of the entire workflow – the virtual key, to unlock the smart garage door using the  Smart Access Control Mobile application.
 
 ![Scenario 2 - Architecture](architecture/Scenario2.png)
-
-
