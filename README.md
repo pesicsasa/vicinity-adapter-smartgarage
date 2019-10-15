@@ -1,4 +1,4 @@
-# Smart Garage VAS
+# SmartGarage VAS
 
 The Smart Garage VAS colaborates with BARTER (private and public blockchain) and VizLore Smart Access Solutions (smart access control and actuation) to facilitate automated parking reservation and payments. This VAS controls the smart lock on a smart garage door, and handles tracking of door access logs. It communicates with BARTER to prepare payments. SmartGarage VAS exposes VLF Smart Access Control VAS. SmartGarage VAS is not meant to be installed by individual users. Instead, VizLore operates the SmartGarage VAS to showcase the above-described BARTER solution. SmartGarage VAS exposes VLF Smart Access Control VAS. 
 
